@@ -1,10 +1,4 @@
-const date = new Date('July 3, 2021 10:00:00'),
-      t = [86400000, 3600000, 60000, 1000];
-
-function randomInteger(min, max) {
-    let rand = min + Math.random() * (max + 1 - min);
-    return Math.floor(rand);
-}
+const date = new Date('July 3, 2021 10:00:00');
 
 function converter(){
     var today = new Date(),
@@ -21,7 +15,6 @@ function converter(){
     var seconds = Math.floor(timeLeft/1000);
         timeLeft -= seconds*1000;
         document.querySelector('.seconds').value = seconds;
-
 }
 
 converter()
