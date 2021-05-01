@@ -4,7 +4,7 @@ body{
     height: 100vh;
     padding: 0;
     margin: 0;
-    background-color: #F6D8AE;
+    background: linear-gradient(#C9DCED, #6de4eb);
     justify-content: center;
     align-items: center;
 }
@@ -22,7 +22,7 @@ input{
     text-align: center;
     background: transparent;
     border: none;
-    color: #2E4057;
+    color: #1e5e96;
     width: 1.5em;
     padding: 0;
     margin: 0;
@@ -35,7 +35,7 @@ input{
     width: calc(100vw - 30px);
     height: calc(100vh - 30px);
     border-radius: 20px;
-    box-shadow: 3px 2px 10px -2px rgba(218, 65, 103, 0.2);
+    box-shadow: 3px 2px 10px -2px #3D7AB0;
 }
 .date{
     margin-top: 45vh;
@@ -43,5 +43,5 @@ input{
 table{
     font-family: 'EB Garamond', serif;
     text-align: center;
-    color: #2E4057;
+    color: #1e5e96;
 }
