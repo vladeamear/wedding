@@ -1,4 +1,4 @@
-const date = new Date('July 3, 2021 10:00:00');
+const date = new Date('August 21, 2021 14:30:00');
 
 function converter(){
     var today = new Date(),
